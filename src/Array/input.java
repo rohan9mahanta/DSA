@@ -8,26 +8,26 @@ public class input {
 
         Scanner sc = new Scanner(System.in);
 
-//        //1-D Array input
-//        System.out.print("Enter array size: ");
-//        int size = sc.nextInt();
-//        int[] arr = new int[size];
-//        for(int i = 0; i<arr.length; i++){
-//            arr[i] = sc.nextInt();
-//        }
-//
-//        System.out.print(Arrays.toString(arr));      // Two String Method (best)
-//
-//        for(int ele: arr){
-//            System.out.print(ele+" ");               // for each loop method
-//        }
-//
-//        // 1-D Array Outputs methods
-//        for(int i = 0; i<arr.length; i++){
-//            System.out.print(arr[i]+" ");           // Normal Method
-//        }
+        //1-D Array input
+        System.out.print("Enter array size: ");
+        int size = sc.nextInt();
+        int[] arr = new int[size];
+        for(int i = 0; i<arr.length; i++){
+            arr[i] = sc.nextInt();
+        }
 
-        // 2-D Array input
+        System.out.print(Arrays.toString(arr));      // Two String Method (best)
+
+        for(int ele: arr){
+            System.out.print(ele+" ");               // for each loop method
+        }
+
+        // 1-D Array Outputs methods
+        for(int i = 0; i<arr.length; i++){
+            System.out.print(arr[i]+" ");           // Normal Method
+        }
+
+//         2-D Array input
 
         System.out.print("Enter rows: ");
         int row = sc.nextInt();
