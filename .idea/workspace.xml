@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="218b78ac-117e-4941-aec3-1a1308436043" name="Changes" comment="" />
+    <list default="true" id="218b78ac-117e-4941-aec3-1a1308436043" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +55,7 @@
     "Application.MaxElementAndMinElement.executor": "Run",
     "Application.MaxIn2DArray.executor": "Run",
     "Application.ReverseArray.executor": "Run",
+    "Application.RichestCustomerWealth.executor": "Run",
     "Application.SearchIn2DArray.executor": "Run",
     "Application.SearchInRange.executor": "Run",
     "Application.SearchInString.executor": "Run",
@@ -81,7 +84,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EvenDigits">
+  <component name="RunManager" selected="Application.RichestCustomerWealth">
     <configuration name="EvenDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Searching.EvenDigits" />
       <module name="DSA" />
@@ -97,6 +100,19 @@
     </configuration>
     <configuration name="MaxIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Searching.MaxIn2DArray" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RichestCustomerWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Searching.RichestCustomerWealth" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -134,26 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Searching.SearchInString" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RichestCustomerWealth" />
         <item itemvalue="Application.EvenDigits" />
         <item itemvalue="Application.MaxIn2DArray" />
         <item itemvalue="Application.SearchIn2DArray" />
         <item itemvalue="Application.SearchInRange" />
-        <item itemvalue="Application.SearchInString" />
       </list>
     </recent_temporary>
   </component>
