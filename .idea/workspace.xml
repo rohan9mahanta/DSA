@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="218b78ac-117e-4941-aec3-1a1308436043" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searching/SearchIn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/SearchIn2DArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
     "Application.Main.executor": "Run",
     "Application.MaxElement.executor": "Run",
     "Application.MaxElementAndMinElement.executor": "Run",
+    "Application.MaxIn2DArray.executor": "Run",
     "Application.ReverseArray.executor": "Run",
     "Application.SearchIn2DArray.executor": "Run",
     "Application.SearchInRange.executor": "Run",
@@ -82,7 +82,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SearchIn2DArray">
+  <component name="RunManager" selected="Application.MaxIn2DArray">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Searching.Main" />
       <module name="DSA" />
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ReverseArray" />
+    <configuration name="MaxIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Searching.MaxIn2DArray" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxIn2DArray" />
         <item itemvalue="Application.SearchIn2DArray" />
         <item itemvalue="Application.SearchInRange" />
         <item itemvalue="Application.SearchInString" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ReverseArray" />
       </list>
     </recent_temporary>
   </component>
