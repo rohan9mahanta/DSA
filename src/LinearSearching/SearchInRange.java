@@ -1,4 +1,4 @@
-package Searching;
+package LinearSearching;
 
 
 public class SearchInRange {

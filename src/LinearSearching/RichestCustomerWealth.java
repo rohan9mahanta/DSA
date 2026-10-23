@@ -1,4 +1,4 @@
-package Searching;
+package LinearSearching;
 // https://leetcode.com/problems/richest-customer-wealth/
 
 public class RichestCustomerWealth {

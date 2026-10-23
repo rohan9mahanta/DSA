@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="218b78ac-117e-4941-aec3-1a1308436043" name="Changes" comment="" />
+    <list default="true" id="218b78ac-117e-4941-aec3-1a1308436043" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching/EvenDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/EvenDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching/MaxIn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/MaxIn2DArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching/RichestCustomerWealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/RichestCustomerWealth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching/SearchIn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/SearchIn2DArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching/SearchInRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/SearchInRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching/SearchInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/SearchInString.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +56,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayListExample.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
     "Application.EvenDigits.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaxElement.executor": "Run",
@@ -82,13 +92,26 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RichestCustomerWealth">
-    <configuration name="EvenDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Searching.EvenDigits" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearching.BinarySearch" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Searching.*" />
+          <option name="PATTERN" value="BinarySearching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvenDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinearSearching.EvenDigits" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinearSearching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +120,11 @@
       </method>
     </configuration>
     <configuration name="MaxIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Searching.MaxIn2DArray" />
+      <option name="MAIN_CLASS_NAME" value="LinearSearching.MaxIn2DArray" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Searching.*" />
+          <option name="PATTERN" value="LinearSearching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +133,11 @@
       </method>
     </configuration>
     <configuration name="RichestCustomerWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Searching.RichestCustomerWealth" />
+      <option name="MAIN_CLASS_NAME" value="LinearSearching.RichestCustomerWealth" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Searching.*" />
+          <option name="PATTERN" value="LinearSearching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,24 +146,11 @@
       </method>
     </configuration>
     <configuration name="SearchIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Searching.SearchIn2DArray" />
+      <option name="MAIN_CLASS_NAME" value="LinearSearching.SearchIn2DArray" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Searching.SearchInRange" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Searching.*" />
+          <option name="PATTERN" value="LinearSearching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.RichestCustomerWealth" />
         <item itemvalue="Application.EvenDigits" />
         <item itemvalue="Application.MaxIn2DArray" />
         <item itemvalue="Application.SearchIn2DArray" />
-        <item itemvalue="Application.SearchInRange" />
       </list>
     </recent_temporary>
   </component>
@@ -170,5 +180,20 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/BinarySearching/BinarySearch.java</url>
+          <line>3</line>
+          <properties class="BinarySearching.BinarySearch" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
