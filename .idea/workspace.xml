@@ -87,7 +87,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CeilingOfNumber">
+  <component name="RunManager" selected="Application.FloorOfNumber">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearching.BinarySearch" />
       <module name="DSA" />
@@ -114,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvenDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinearSearching.EvenDigits" />
+    <configuration name="FloorOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearching.FloorOfNumber" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinearSearching.*" />
+          <option name="PATTERN" value="BinarySearching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FloorOfNumber" />
         <item itemvalue="Application.CeilingOfNumber" />
         <item itemvalue="Application.OrderAgnosticBS" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.RichestCustomerWealth" />
-        <item itemvalue="Application.EvenDigits" />
       </list>
     </recent_temporary>
   </component>
