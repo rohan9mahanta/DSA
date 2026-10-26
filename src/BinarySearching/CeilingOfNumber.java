@@ -16,6 +16,10 @@ public class CeilingOfNumber
 
 
     static int CeilingOfNumber(int[] arr, int target){
+        //when target elemnet is the grratest element so there exists no ceiling
+        if(target > arr[arr.length-1]){
+            return -1;
+        }
         int start = 0;
         int end = arr.length - 1;
 

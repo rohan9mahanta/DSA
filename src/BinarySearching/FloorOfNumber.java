@@ -16,6 +16,10 @@ public class FloorOfNumber
 
 
     static int FloorOfNumber(int[] arr, int target){
+        // when target element is the smallest element then there exists no floor
+        if(target<arr[0]){
+            return -1;
+        }
         int start = 0;
         int end = arr.length - 1;
 
