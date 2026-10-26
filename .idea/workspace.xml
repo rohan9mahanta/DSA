@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="218b78ac-117e-4941-aec3-1a1308436043" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searching/EvenDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/EvenDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searching/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searching/MaxIn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/MaxIn2DArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searching/RichestCustomerWealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/RichestCustomerWealth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searching/SearchIn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/SearchIn2DArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searching/SearchInRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/SearchInRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searching/SearchInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearching/SearchInString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +55,7 @@
     "Application.MaxElement.executor": "Run",
     "Application.MaxElementAndMinElement.executor": "Run",
     "Application.MaxIn2DArray.executor": "Run",
+    "Application.OrderAgnosticBS.executor": "Run",
     "Application.ReverseArray.executor": "Run",
     "Application.RichestCustomerWealth.executor": "Run",
     "Application.SearchIn2DArray.executor": "Run",
@@ -92,7 +86,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.OrderAgnosticBS">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearching.BinarySearch" />
       <module name="DSA" />
@@ -132,6 +126,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderAgnosticBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearching.OrderAgnosticBS" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RichestCustomerWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinearSearching.RichestCustomerWealth" />
       <module name="DSA" />
@@ -145,26 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinearSearching.SearchIn2DArray" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinearSearching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderAgnosticBS" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.RichestCustomerWealth" />
         <item itemvalue="Application.EvenDigits" />
         <item itemvalue="Application.MaxIn2DArray" />
-        <item itemvalue="Application.SearchIn2DArray" />
       </list>
     </recent_temporary>
   </component>
