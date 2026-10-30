@@ -2,19 +2,24 @@ package Array;
 
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/submissions/2185827582/
 
-class Solution {
-    public int removeDuplicates(int[] nums) {
+class RemoveDuplicate{
+    public static void main(String[] args) {
 
-        int i = 0;
+    }
+    class Solution {
+        public int removeDuplicates(int[] nums) {
 
-        for (int j = 0; j < nums.length; j++) {
+            int i = 0;
 
-            if (i < 2 || nums[j] != nums[i - 2]) {
-                nums[i] = nums[j];
-                i++;
+            for (int j = 0; j < nums.length; j++) {
+
+                if (i < 2 || nums[j] != nums[i - 2]) {
+                    nums[i] = nums[j];
+                    i++;
+                }
             }
-        }
 
-        return i;
+            return i;
+        }
     }
 }
