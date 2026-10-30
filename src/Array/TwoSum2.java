@@ -1,5 +1,5 @@
 package Array;
-
+// https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 class TwoSum2{
     public static void main(String[] args){}
     class Solution {
