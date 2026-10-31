@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="218b78ac-117e-4941-aec3-1a1308436043" name="Changes" comment="" />
+    <list default="true" id="218b78ac-117e-4941-aec3-1a1308436043" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/RemoveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/RemoveDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/TwoSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/TwoSum2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +65,7 @@
     "Application.SearchIn2DArray.executor": "Run",
     "Application.SearchInRange.executor": "Run",
     "Application.SearchInString.executor": "Run",
+    "Application.Segregate0And1.executor": "Run",
     "Application.Swap.executor": "Run",
     "Application.inputArray.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -86,7 +91,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FloorOfNumber">
+  <component name="RunManager" selected="Application.Segregate0And1">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearching.BinarySearch" />
       <module name="DSA" />
@@ -139,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RichestCustomerWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinearSearching.RichestCustomerWealth" />
+    <configuration name="Segregate0And1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Segregate0And1" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinearSearching.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Segregate0And1" />
         <item itemvalue="Application.FloorOfNumber" />
         <item itemvalue="Application.CeilingOfNumber" />
         <item itemvalue="Application.OrderAgnosticBS" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.RichestCustomerWealth" />
       </list>
     </recent_temporary>
   </component>
