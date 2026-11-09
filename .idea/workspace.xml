@@ -89,6 +89,11 @@
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rohan\OneDrive\Desktop\Rohan\DSA\src\Array" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Segregate0And1">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearching.BinarySearch" />
